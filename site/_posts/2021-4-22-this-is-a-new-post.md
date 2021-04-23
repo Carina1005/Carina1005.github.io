@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: Nü post who dis?
 thumb-src: https://via.placeholder.com/480x320
 ---
 
