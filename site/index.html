@@ -5,7 +5,8 @@ layout: default
 <section class="posts">
   {% for post in site.posts %}
     <div class="post">
-        <img class="post-thumb" src="{{post.thumb-src}}" alt="Featured image: {{post.title}}">
+        <img class="post-thumb" src="{{post.thumb-src}}" alt="Featured image: {{post.title}}" width="480"
+        height="320" >
         <div class="post-info">
         <h2 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 

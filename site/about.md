@@ -1,14 +1,12 @@
 ---
 layout: page
-title: About
+title: Who Am I
 permalink: /about/
 ---
 
 Some information about you!
+<img src="{{ site.baseurl }}/images/myportrait.jpeg" alt="portrait" style="width: 200px;" id ="portrait"/>
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
 
 ### Contact me
 
