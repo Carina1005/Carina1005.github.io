@@ -1,0 +1,20 @@
+<header class="cf">
+    <nav>
+        <ul>
+            {% if page.url == "/" %}
+                <a href="#"><li class="current">
+            {% else %}
+                <a class="animsition-link" href="{{ "/" | relative_url }}"><li>
+            {% endif %}
+                Blog</li></a>
+
+
+            {% if page.url == "/about/" %}
+                <a href="#"><li class="current">
+            {% else %}
+                <a class="animsition-link" href="{{ "/about/" | relative_url }}"><li>
+            {% endif %}
+                About</li></a>
+        </ul>
+    </nav>
+</header>
