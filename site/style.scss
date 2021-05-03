@@ -106,5 +106,11 @@ footer{
   position: absolute;
   right: 400px;
   top: 180px;
+}
+#myinfo{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  width: 80vw;
 
 }

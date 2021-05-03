@@ -3,8 +3,16 @@ layout: page
 title: Who Am I
 permalink: /about/
 ---
-
+<div id=myinfo>
 Some information about you!
+Some information about you!
+Some information about you!
+Some information about you!
+Some information about you!
+Some information about you!
+Some information about you!
+Some information about you!
+</div>
 <img src="{{ site.baseurl }}/images/myportrait.jpeg" alt="portrait" style="width: 200px;" id ="portrait"/>
 
 
