@@ -1,11 +1,10 @@
 ---
 layout: post
-title: You're up and running!
-thumb-src: https://via.placeholder.com/480x320
+title: My Roommate at University
+thumb-src: /Blog/accompany.jpg
 ---
 
-Yay! This is a Sample Post! You can edit it using Markdown!
+Yay! This is a Sample Post! You can edit it using Markdown!Yay! This is a Sample Post! You can edit it using Markdown!Yay! This is a Sample Post! You can edit it using Markdown!Yay! This is a Sample Post! You can edit it using Markdown!Yay! This is a Sample Post! You can edit it using Markdown!Yay! This is a Sample Post! You can edit it using Markdown!Yay! This is a Sample Post! You can edit it using Markdown!
 
-# THIS IS A HEADER
 
 **this is bold**
