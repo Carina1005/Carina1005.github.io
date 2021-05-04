@@ -1,9 +1,0 @@
-I"ý<p>Some information about you!</p>
-<div id="portrait">
-<img src="/images/myportrait.jpeg" alt="portrait" style="width: 300px;" />
-</div>
-
-<h3 id="contact-me">Contact me</h3>
-
-<p><a href="mailto:carinayuan1005@gmail.com">carinayuan1005@gmail.com</a></p>
-:ET

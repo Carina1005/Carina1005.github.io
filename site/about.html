@@ -1,0 +1,33 @@
+---
+layout: page
+title: Who Am I
+permalink: /about/
+photos:
+- alt: Photo of a thing
+  src: https://via.placeholder.com/320
+- alt: Photo of a thing
+  src: https://via.placeholder.com/320
+- alt: Photo of a thing
+  src: https://via.placeholder.com/320
+- alt: Photo of a thing
+  src: https://via.placeholder.com/320
+- alt: Photo of a thing
+  src: https://via.placeholder.com/320
+- alt: Photo of a thing
+  src: https://via.placeholder.com/320
+---
+<section class="about">
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum venenatis risus, porttitor laoreet enim vehicula id. In hac habitasse platea dictumst. Sed sed mattis libero. Quisque eget lorem dapibus, hendrerit lorem ut, pulvinar orci. Duis ultrices mollis mauris in molestie. Aenean eleifend nisl eget iaculis blandit. In rutrum lacus at libero aliquet tempor. Integer sit amet nibh consectetur ante vehicula porttitor. Phasellus dui velit, auctor eu dolor vel, suscipit mattis felis. Pellentesque volutpat nibh ac dui tincidunt porta. Integer non venenatis mauris.</p>
+    <h3>Contact me</h3>
+    <a href="mailto:carinayuan1005@gmail.com" target="_blank">carinayuan1005@gmail.com</a>
+  </article>
+  <div class="portrait">
+    <img src="{{ site.baseurl }}/images/myportrait.jpeg" alt="portrait" />
+  </div>
+  <section class="photo-grid">
+    {% for photo in page.photos %}
+      <img src="{{photo.src}}" alt="{{photo.alt}}">
+    {% endfor %}
+  </section>
+</section>
